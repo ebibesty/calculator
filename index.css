@@ -1,0 +1,216 @@
+body{
+	background-color:navy;
+	font-family: Cambria, Cochin, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+	text-align: center;
+	border: solid #323330 ;
+	background: #323330;
+	color: white;
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-top: -8px;
+}
+input{  
+	width: 20px;  
+	background-color: green;  
+	color: white;  
+	border: 3px solid gray;  
+	border-radius: 5px;  
+	padding: 26px;  
+	margin: 5px;  
+	font-size: 15px;  
+	}  
+.container{
+	background-color:navy;
+	color:dimgrey;
+	/*border: 5px solid dimgrey;*/
+	border:10px solid black;
+	border-radius: 24px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	height:420px;
+
+}
+#display{
+	text-align: left;
+	font-size: 50px;
+	line-height: 50px;
+	padding:16px 16px;
+	color: black;
+	background:#acece9;  
+	height:50px;
+	width: 90.5%;
+	border-radius: 10px;
+	border:5px solid black;
+	font-weight:bolder;
+	margin: auto;
+	
+}
+.buttons{
+	margin-top: .5em;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	color: whitesmoke;
+	margin-left: 1em;
+	/* width: 2em; */
+	cursor:pointer;
+	border-radius: 20px;
+	
+}
+.buttons > div{
+	/* border-top: 1px solid black; */
+	border: 1px solid black;
+	
+}
+
+.button{
+
+	text-align: center;
+	color: whitesmoke;
+	background:#323330; 
+	font-size: 15px;
+	/* margin-left:.5em; */
+	width: 3em;
+	font-weight: bold;
+	border-radius: 20px;
+	margin:5px;
+}
+
+.button:hover{
+background-color: transparent;
+color: whitesmoke;
+}
+
+
+
+.button{
+	border:0.5px solid #999;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+#demo{
+	float: right;
+	border-radius: 20px;
+	margin: .4em;
+	color: black;
+}
+
+#equal{
+	background-color: #5555ff;
+	color: white;
+
+}
+#equal:hover{
+	background-color:#2222ff;
+	/* border:solid black; */
+	font-weight: bolder;
+	color: whitesmoke;
+
+}
+
+#td2{
+	background:tomato;
+	text-align: center;
+	padding:0em;
+}
+#td2:hover{
+	background:red;
+	text-align: center;
+	color: white;
+	padding:0em;
+}
+
+#main-footer11{
+text-align: center;         
+font-size: 1.3em;
+font-style: italic;
+color:whitesmoke;
+text-align: center;
+padding: 2.5px;
+background: #323330;
+position: fixed;
+width: 100%;
+bottom: 0rem;
+margin-left: -.5em;
+}
+
+
+@media only screen and (max-width:450px){
+*{
+	font-size: 15px;
+}
+.button{
+	text-align: center;
+	color: whitesmoke;
+	background:#323330; 
+	font-size: 15px;
+	margin-left:.5em;
+	width: 3em;
+	/* font-weight: bold; */
+	border-radius: 20px;
+	margin:5px;
+	line-height: 40px;
+}
+#display{
+	color: black;
+	font-size:50px;
+	border-radius: 15px;
+	
+}
+}
+/*
+
+table{
+	background: whitesmoke;
+	color:dimgrey;
+	border: 5px solid dimgrey;
+	border:5px solid #cccccc;
+	border-radius: 20px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	height:400px;
+
+}
+th{
+	background-color: white;
+	border-radius: 20px;
+	color: #323330;
+	text-align: left;
+	color: dimgrey;
+}
+tr td{
+	padding:5px;
+	background-color:whitesmoke;
+	border-radius: 20px;
+	text-align: center;
+
+}
+input{
+	line-height: 20px;
+	text-align: center;
+	color: whitesmoke;
+	background:#323330; 
+	font-size: 15px;
+	margin-left:none;
+	width: 3em;
+	cursor:pointer;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+th input {
+	color: dimgrey;
+	font-size:50px;
+	border-radius: 15px;
+}
+*/
